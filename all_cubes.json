@@ -1,0 +1,1710 @@
+{
+    "cubes": [
+        {
+            "name": "V0001",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "SSISStatusCube",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 1,
+            "entityIdxList": [
+                201
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 201,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 1,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 1,
+            "assignedGroup": "SQLTrigger",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0005",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "SetMaxItems",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 1,
+            "entityIdxList": [
+                205,
+                206
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 205,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 206,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 3,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 5,
+            "assignedGroup": "MaxItemsCheck",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0020",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_status",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 11,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 20,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0022",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_last_task",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 13,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 22,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0026",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_name",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 17,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 26,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0027",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_log",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 18,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 27,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0030",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_fulllog_name",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                208,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 208,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 21,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 30,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0031",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_fulllog_status",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                208,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 208,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 22,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 31,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0033",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_fulllog_starttime",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                208,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 208,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 24,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 33,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0035",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_fulllog_log",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                208,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 208,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 26,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 35,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0036",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_fulllog_package",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                208,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 208,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 27,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 36,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 0,
+            "hidden": false
+        },
+        {
+            "name": "V0002",
+            "fileSize": "0,3 Kb",
+            "fileSizeNumber": 0.3369140625,
+            "extended": "SSISInsertSingeRow",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 0,
+            "dataType": 1,
+            "entityIdxList": [
+                202
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 0,
+                    "dimensions": [
+                        {
+                            "entityIdx": 202,
+                            "sparsity": 2
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 0,
+                    "engineBit": 11,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0002",
+            "exclude": false,
+            "inRam": true,
+            "idx": 2,
+            "assignedGroup": "SQLTrigger",
+            "assignedPosition": 1,
+            "hidden": false
+        },
+        {
+            "name": "V0003",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "SSISStatusTimestamp",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                201
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 201,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 2,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 3,
+            "assignedGroup": "SQLTrigger",
+            "assignedPosition": 2,
+            "hidden": false
+        },
+        {
+            "name": "V0004",
+            "fileSize": "0,4 Kb",
+            "fileSizeNumber": 0.4423828125,
+            "extended": "Backup_Execution_Hour_Database",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 0,
+            "dataType": 3,
+            "entityIdxList": [
+                203,
+                204
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 0,
+                    "dimensions": [
+                        {
+                            "entityIdx": 203,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 204,
+                            "sparsity": 2
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 0,
+                    "engineBit": 12,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0005",
+            "exclude": false,
+            "inRam": true,
+            "idx": 4,
+            "assignedGroup": "Execution",
+            "assignedPosition": 3,
+            "hidden": false
+        },
+        {
+            "name": "V0006",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "MaxItemsVerlauf",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 1,
+            "entityIdxList": [
+                7,
+                206
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 7,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 206,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 4,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 6,
+            "assignedGroup": "MaxItemsCheck",
+            "assignedPosition": 4,
+            "hidden": false
+        },
+        {
+            "name": "V0007",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "CurrentItems",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 1,
+            "entityIdxList": [
+                205,
+                206
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 205,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 206,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 5,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 7,
+            "assignedGroup": "MaxItemsCheck",
+            "assignedPosition": 5,
+            "hidden": false
+        },
+        {
+            "name": "V0009",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "MaxItemsReached",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                205,
+                206
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 205,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 206,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 7,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 9,
+            "assignedGroup": "MaxItemsCheck",
+            "assignedPosition": 6,
+            "hidden": false
+        },
+        {
+            "name": "V0010",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "TriggerDate",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                205,
+                206
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 205,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 206,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 8,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 10,
+            "assignedGroup": "MaxItemsCheck",
+            "assignedPosition": 7,
+            "hidden": false
+        },
+        {
+            "name": "V0011",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "TriggerPoint",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 1,
+            "entityIdxList": [
+                205,
+                206
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 205,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 206,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 9,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 11,
+            "assignedGroup": "MaxItemsCheck",
+            "assignedPosition": 8,
+            "hidden": false
+        },
+        {
+            "name": "V0012",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "AvgIncrease",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 1,
+            "entityIdxList": [
+                205,
+                206
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 205,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 206,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 10,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 12,
+            "assignedGroup": "MaxItemsCheck",
+            "assignedPosition": 9,
+            "hidden": false
+        },
+        {
+            "name": "V0021",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_avg_time",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 3,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 12,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 21,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 10,
+            "hidden": false
+        },
+        {
+            "name": "V0023",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_package",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 14,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 23,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 11,
+            "hidden": false
+        },
+        {
+            "name": "V0024",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_endtime",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 15,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 24,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 12,
+            "hidden": false
+        },
+        {
+            "name": "V0025",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_used_time",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 3,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 16,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 25,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 13,
+            "hidden": false
+        },
+        {
+            "name": "V0028",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_starttime",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                207,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 207,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 19,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 28,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 14,
+            "hidden": false
+        },
+        {
+            "name": "V0029",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_fulllog_last_task",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                208,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 208,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 20,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 29,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 15,
+            "hidden": false
+        },
+        {
+            "name": "V0032",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_fulllog_endtime",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                208,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 208,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 23,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 32,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 16,
+            "hidden": false
+        },
+        {
+            "name": "V0034",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Monitoring_fulllog_used_time",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 1,
+            "dataType": 3,
+            "blobExtension": "None",
+            "entityIdxList": [
+                208,
+                209,
+                210
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 1,
+                    "dimensions": [
+                        {
+                            "entityIdx": 208,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 209,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 210,
+                            "sparsity": 1
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 25,
+                    "engineBit": 0,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0000",
+            "exclude": false,
+            "inRam": false,
+            "idx": 34,
+            "assignedGroup": "Monitoring",
+            "assignedPosition": 17,
+            "hidden": false
+        },
+        {
+            "name": "V0037",
+            "fileSize": "2,4 Kb",
+            "fileSizeNumber": 2.37890625,
+            "extended": "[Stats] - Fehlermeldung",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 0,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                7,
+                211,
+                212,
+                215
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 0,
+                    "dimensions": [
+                        {
+                            "entityIdx": 7,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 211,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 212,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 215,
+                            "sparsity": 2
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 0,
+                    "engineBit": 80,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0015",
+            "exclude": false,
+            "inRam": true,
+            "idx": 37,
+            "assignedGroup": "Stats",
+            "assignedPosition": 18,
+            "hidden": false
+        },
+        {
+            "name": "V0040",
+            "fileSize": "0,7 Kb",
+            "fileSizeNumber": 0.6513671875,
+            "extended": "[Stats] - Task",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 0,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                7,
+                211,
+                212,
+                215
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 0,
+                    "dimensions": [
+                        {
+                            "entityIdx": 7,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 211,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 212,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 215,
+                            "sparsity": 2
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 0,
+                    "engineBit": 80,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0015",
+            "exclude": false,
+            "inRam": true,
+            "idx": 40,
+            "assignedGroup": "Stats",
+            "assignedPosition": 19,
+            "hidden": false
+        },
+        {
+            "name": "V0038",
+            "fileSize": "109,7 Kb",
+            "fileSizeNumber": 109.685546875,
+            "extended": "Capsule_Backup",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 0,
+            "dataType": 17,
+            "blobExtension": ".bcps",
+            "entityIdxList": [
+                7,
+                214
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 0,
+                    "dimensions": [
+                        {
+                            "entityIdx": 7,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 214,
+                            "sparsity": 2
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 0,
+                    "engineBit": 11,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0012",
+            "exclude": false,
+            "inRam": true,
+            "idx": 38,
+            "assignedGroup": "Capsule_Backup",
+            "assignedPosition": 20,
+            "hidden": false
+        },
+        {
+            "name": "V0039",
+            "fileSize": "5,7 Kb",
+            "fileSizeNumber": 5.720703125,
+            "extended": "Capsule_Backup_Export_File",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 0,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                214
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 0,
+                    "dimensions": [
+                        {
+                            "entityIdx": 214,
+                            "sparsity": 2
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 0,
+                    "engineBit": 11,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0012",
+            "exclude": false,
+            "inRam": true,
+            "idx": 39,
+            "assignedGroup": "Capsule_Backup",
+            "assignedPosition": 21,
+            "hidden": false
+        },
+        {
+            "name": "V0041",
+            "fileSize": "20,6 Kb",
+            "fileSizeNumber": 20.6416015625,
+            "extended": "Log",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 0,
+            "dataType": 5,
+            "blobExtension": "None",
+            "entityIdxList": [
+                7,
+                211,
+                212,
+                215,
+                216,
+                217
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 0,
+                    "dimensions": [
+                        {
+                            "entityIdx": 7,
+                            "sparsity": 1
+                        },
+                        {
+                            "entityIdx": 211,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 212,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 215,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 216,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 217,
+                            "sparsity": 2
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 0,
+                    "engineBit": 80,
+                    "emptyVersion": false
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0016",
+            "exclude": false,
+            "inRam": true,
+            "idx": 41,
+            "assignedGroup": "Log",
+            "assignedPosition": 22,
+            "hidden": false
+        },
+        {
+            "name": "V0042",
+            "fileSize": "0,0 Kb",
+            "fileSizeNumber": 0.0,
+            "extended": "Group Counter",
+            "isRubberCube": false,
+            "versions": 1,
+            "databaseType": 0,
+            "dataType": 1,
+            "entityIdxList": [
+                212,
+                217,
+                218
+            ],
+            "mxcEntityIdx": 0,
+            "varianceModeList": [],
+            "versionList": [
+                {
+                    "versionNumber": 1,
+                    "databaseType": 0,
+                    "dimensions": [
+                        {
+                            "entityIdx": 212,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 217,
+                            "sparsity": 2
+                        },
+                        {
+                            "entityIdx": 218,
+                            "sparsity": 2
+                        }
+                    ],
+                    "isNew": false,
+                    "rolapProtocolIdx": 0,
+                    "engineBit": 80,
+                    "emptyVersion": true
+                }
+            ],
+            "cubeTextSubGroup": 2,
+            "sparsity": "SP0017",
+            "exclude": false,
+            "inRam": true,
+            "idx": 42,
+            "assignedGroup": "Board META 2.0",
+            "assignedPosition": 23,
+            "hidden": false
+        }
+    ],
+    "groups": [
+        {
+            "position": 0,
+            "description": "SQLTrigger",
+            "items": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "position": 1,
+            "description": "MaxItemsCheck",
+            "items": [
+                6,
+                7,
+                9,
+                10,
+                11,
+                12,
+                8
+            ]
+        },
+        {
+            "position": 2,
+            "description": "Monitoring",
+            "items": [
+                21,
+                23,
+                24,
+                25,
+                28,
+                29,
+                32,
+                34
+            ]
+        },
+        {
+            "position": 3,
+            "description": "Execution",
+            "items": [
+                4
+            ]
+        },
+        {
+            "position": 4,
+            "description": "Stats",
+            "items": [
+                37,
+                40
+            ]
+        },
+        {
+            "position": 5,
+            "description": "Capsule_Backup",
+            "items": [
+                38,
+                39
+            ]
+        },
+        {
+            "position": 6,
+            "description": "Log",
+            "items": [
+                41
+            ]
+        },
+        {
+            "position": 7,
+            "description": "Board META 2.0",
+            "items": [
+                42
+            ]
+        }
+    ]
+}
